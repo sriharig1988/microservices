@@ -106,9 +106,7 @@ public class SpringDataJpaController {
 
 	@GetMapping("/createCourse")
 	public Course createCourse() {
-
 		Course course = new Course();
-
 		course.setTitle("PythonJava");
 		course.setCredit(100);
 		CourseMaterial courseMaterial = new CourseMaterial();
